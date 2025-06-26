@@ -1,0 +1,100 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>VDD</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/img/favicon.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script class="img-boxy"  src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+
+<body id="page_top">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">VDD</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/">Home</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/about.html">About</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/contact.html">Contact</a></li>
+            </ul>
+                </div>
+            </div>  
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <h1 class="masthead-heading text-uppercase mb-0">Vegetation Disease Detector</h1>
+           
+        </header>
+        
+        <h1>About</h1>
+	
+        <h2>What is the Leaf Condition Classifier?</h2>
+        <p>
+            The Leaf Condition Classifier is a tool designed to help identify various conditions 
+            affecting fruits and vegetables by analyzing images of their leaves. Using advanced 
+            machine learning algorithms, the classifier can detect diseases and offer guidance 
+            for better crop management.
+        </p>
+    </section>
+
+    <section>
+        <h2>Classification Types</h2>
+        <p>The system currently supports classification for the following types:</p>
+        <ul>
+            <li>Pepper (Bell):
+                <ul>
+                    <li>Bacterial Spot</li>
+                    <li>Healthy</li>
+                </ul>
+            </li>
+            <li>Potato:
+                <ul>
+                    <li>Early Blight</li>
+                    <li>Late Blight</li>
+                    <li>Healthy</li>
+                </ul>
+            </li>
+            <li>Tomato:
+                <ul>
+                    <li>Bacterial Spot</li>
+                    <li>Early Blight</li>
+                    <li>Late Blight</li>
+                    <li>Leaf Mold</li>
+                    <li>Septoria Leaf Spot</li>
+                    <li>Spider Mites (Two-Spotted Spider Mite)</li>
+                    <li>Target Spot</li>
+                    <li>Tomato Yellow Leaf Curl Virus</li>
+                    <li>Tomato Mosaic Virus</li>
+                    <li>Healthy</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How It Works</h2>
+        <p>
+            Upload an image of a leaf, and the classifier will analyze it to identify any potential 
+            conditions. This system uses a pre-trained neural network model to deliver accurate results. 
+            Farmers, gardeners, and agricultural experts can use this tool to make informed decisions 
+            about plant health and care.
+        </p>
+</body>
+
+</html>
